@@ -1,27 +1,9 @@
 Colosseum
 =========
 
-A (partial) implementation of the CSS box and flexbox layout algorithm.
+An implementation of the CSS layout and styling algorithm that can be applied
+to an arbitrary DOM.
 
-The following CSS attributes and value types are supported:
-
-==========================================================================================  =======================================================================================
-Name                                                                                        Value
-==========================================================================================  =======================================================================================
-width, height                                                                               positive number
-min_width, min_height                                                                       positive number
-max_width, max_height                                                                       positive number
-left, right, top, bottom                                                                    number
-margin, margin_left, margin_right, margin_top, margin_bottom                                number
-padding, padding_left, padding_right, padding_top, padding_bottom                           positive number
-border_width, border_left_width, border_right_width, border_top_width, border_bottom_width  positive number
-flex_direction                                                                              ``"column"``, ``"row"``
-justify_content                                                                             ``"flex-start"``, ``"center"``, ``"flex-end"``, ``"space-between"``, ``"space-around"``
-align_items, align_self                                                                     ``"flex-start"``, ``"center"``, ``"flex-end"``, ``"stretch"``
-flex                                                                                        positive number
-flex_wrap                                                                                   ``"wrap"``, ``"nowrap"``
-position                                                                                    ``"relative"``, ``"absolute"``
-==========================================================================================  =======================================================================================
 
 Quickstart
 ----------
